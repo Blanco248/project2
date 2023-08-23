@@ -26,10 +26,13 @@
     <main>
         <section>
             <div class="abt">
-                <h2 id="abt">About Me</h2>
-                <p>Hi! I'm Blanco, MMA fighter and BJJ blue belt, known for acting like an idiot in public and as a miniature David Goggins.</p>
-                <p>I am one of the first to recognize that humans have no limit and can accomplish great things, and have proven it by running my marathon in under 4 hours.</p>      
-                <p>In my free time I workout 4 times a day, code, study finance and business to understand macroeconomics, study Real Estate, read, and meditate. All this on top of working full-time.</p>
+                <div class="abt-p">
+                    <h2 id="abt">About Me</h2>
+                    <p>Hi! I'm Blanco, MMA fighter and BJJ blue belt, known for acting like an idiot in public and as a miniature David Goggins.</p>
+                    <p>I am one of the first to recognize that humans have no limit and can accomplish great things, and have proven it by running my marathon in under 4 hours.</p>      
+                    <p>In my free time I workout 4 times a day, code, study finance and business to understand macroeconomics, study Real Estate, read, and meditate. All this on top of working full-time.</p>
+                    <p>Fun Fact! I've been programming for <script>Date</script></p>
+                </div>
                 <img src="./ressources/images/Me.jpg" alt="Picture of Blanco">
             </div>
         </section>
@@ -37,9 +40,11 @@
             <div class="projects">
                 <h2 id="projects">Projects</h2>
                 <ul>
-                    <a href="#"><li>First Project</li></a>
-                    <a href="#"><li>Fotomatic</li></a>
-                    <a href="#"><li>Flexbox</li></a>
+                    <li id="FP"><a href="#">First Project</a></li>
+                        <img class="FP" src="./ressources/images/FP.PNG" alt="">
+                        <p class="FP">My first project!</p>
+                    <li id="Foto"><a href="#">Fotomatic</a></li>
+                    <li id="Flex"><a href="#">Flexbox</a></li>
                 </ul>
             </div>
         </section>
@@ -58,6 +63,6 @@
             </div>
         </section>
     </main>
-    <script href="./ressources/script.js"></script>
+    <script src="./ressources/script.js"></script>
 </body>
 </html>
