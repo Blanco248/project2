@@ -117,17 +117,21 @@ main h2 {
     padding: 1rem;
 }
 
-.projects img {
-    width: 35%;
+.projects  img {
+    width: 40%;
+    left: 0;
 }
 
 .projects p {
-    margin: 1rem 0;;
+    margin: 1rem 0;
 }
 
-.FP {
+.projects .img,
+.projects .p {
     display: none;
 }
+
+
 
 @media only screen and (max-width: 600px) {
     .abt {
